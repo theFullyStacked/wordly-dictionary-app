@@ -23,11 +23,3 @@ button {
     color: black;
     border-radius: 15px;
 }
-#reset-btn{
-    text-align: center;
-}
-footer{
-    text-align: center;
-    background-color: rgb(146, 222, 221);
-    padding: 5px;
-}
