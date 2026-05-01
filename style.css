@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+    background-color: rgb(171, 236, 235);
+    padding: 20px;
+}
+#sec1{
+    text-align: center;
+    background-color: rgb(235, 255, 255);
+    padding: 20px;
+}
+#sec2{
+    background-color: rgb(235, 255, 255);
+    padding: 120px;
+}
+h2 {
+    color: black;
+}
+p {
+    color: black;
+}
+button {
+    background-color: #c08cf0;
+    color: black;
+    border-radius: 15px;
+}
+#reset-btn{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: rgb(146, 222, 221);
+    padding: 5px;
+}
