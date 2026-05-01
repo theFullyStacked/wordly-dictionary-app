@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Worldly Dictionary</title>
 </head>
 <body>
-    <h1>Worldly Dictionary</h1>
-    <p>What word would you like to search?</p>
-    <form id="dictionary">
-        <input type="text" id="word" placeholder='Type here...'>
-        <button type='submit'>Search</button>
-    </form>
-    <h2 id="message"></h2>
-    <button id="reset-btn">Reset</button>
+    <header>
+        <h1>Worldly Dictionary</h1>
+        <h3><b>Your One-Stop Location For All Things Vocabulary!</b></h3>
+    </header>
+    <main>
+        <section id="sec1">
+            <form id="dictionary">
+            <p>What word would you like to search today?</p>
+            <input type="text" id="word" placeholder='Type here...'><br><br>
+            <button type='submit'>Search</button><br><br>
+        </form>
+        </section>
+        <section id="sec2">
+            <p id="message"></p>
+            <button id="reset-btn">Reset</button>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
+
 </html>
